@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CompCenter_1._0;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,8 @@ namespace Comp_Center_1._0
 
         private void arterarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormProdutosAlterar OutraForm = new FormProdutosAlterar();
+            OutraForm.ShowDialog();
         }
 
         private void btnRelatoriosProduto_Click(object sender, EventArgs e)
@@ -35,6 +37,24 @@ namespace Comp_Center_1._0
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void btnProdutosCadastrar_Click(object sender, EventArgs e)
+        {
+            FormProdutosCadastrar OutraForm = new FormProdutosCadastrar();
+            OutraForm.ShowDialog();
+        }
+
+        private void btnProdutosConsultar_Click(object sender, EventArgs e)
+        {
+            FormProdutosConsultar OutraForm = new FormProdutosConsultar();
+            OutraForm.ShowDialog();
+        }
+
+        private void btnProdutosExcluir_Click(object sender, EventArgs e)
+        {
+            FormProdutosExcluir OutraForm = new FormProdutosExcluir();
+            OutraForm.ShowDialog();
         }
     }
 }

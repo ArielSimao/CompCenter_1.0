@@ -32,50 +32,50 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menu = new System.Windows.Forms.MenuStrip();
             this.btnProdutos = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnFornecedores = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnClientes = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnFuncionarios = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnSetores = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnCompras = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnTransferencias = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnRelatorios = new System.Windows.Forms.ToolStripMenuItem();
             this.btnProdutosCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnProdutosConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnProdutosAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnProdutosExcluir = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnFornecedores = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFornecedoresCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFornecedoresConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFornecedoresAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFornecedoresExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFornecedoresAtivar = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnClientes = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClientesCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClientesConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClientesAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClientesExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.btnClientesAtivar = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnFuncionarios = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFuncionariosCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFuncionariosConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFuncionariosAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFuncionariosExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.btnFuncionariosAtivar = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSetores = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSetoresCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSetoresConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSetoresAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSetoresExcluir = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSetoresAtivar = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCompras = new System.Windows.Forms.ToolStripMenuItem();
             this.btnComprasCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnComprasConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnComprasAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnComprasExcluir = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnTransferencias = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTransferenciasCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTransferenciasConsultar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTransferenciasAlterar = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTransferenciasExcluir = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnRelatorios = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRelatoriosProdutos = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRelatoriosClientes = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRelatoriosFuncionarios = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnRelatoriosVendas = new System.Windows.Forms.ToolStripMenuItem();
             this.rbtnRelatoriosTransferencias = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnRelatoriosVendas = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRelatoriosGraficoVendas = new System.Windows.Forms.ToolStripMenuItem();
             this.menu.SuspendLayout();
             this.SuspendLayout();
@@ -109,91 +109,17 @@
             this.btnProdutos.Name = "btnProdutos";
             resources.ApplyResources(this.btnProdutos, "btnProdutos");
             // 
-            // btnFornecedores
-            // 
-            this.btnFornecedores.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnFornecedoresCadastrar,
-            this.btnFornecedoresConsultar,
-            this.btnFornecedoresAlterar,
-            this.btnFornecedoresExcluir,
-            this.btnFornecedoresAtivar});
-            this.btnFornecedores.Name = "btnFornecedores";
-            resources.ApplyResources(this.btnFornecedores, "btnFornecedores");
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnClientesCadastrar,
-            this.btnClientesConsultar,
-            this.btnClientesAlterar,
-            this.btnClientesExcluir,
-            this.btnClientesAtivar});
-            this.btnClientes.Name = "btnClientes";
-            resources.ApplyResources(this.btnClientes, "btnClientes");
-            // 
-            // btnFuncionarios
-            // 
-            this.btnFuncionarios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnFuncionariosCadastrar,
-            this.btnFuncionariosConsultar,
-            this.btnFuncionariosAlterar,
-            this.btnFuncionariosExcluir,
-            this.btnFuncionariosAtivar});
-            this.btnFuncionarios.Name = "btnFuncionarios";
-            resources.ApplyResources(this.btnFuncionarios, "btnFuncionarios");
-            // 
-            // btnSetores
-            // 
-            this.btnSetores.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnSetoresCadastrar,
-            this.btnSetoresConsultar,
-            this.btnSetoresAlterar,
-            this.btnSetoresExcluir,
-            this.btnSetoresAtivar});
-            this.btnSetores.Name = "btnSetores";
-            resources.ApplyResources(this.btnSetores, "btnSetores");
-            // 
-            // btnCompras
-            // 
-            this.btnCompras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnComprasCadastrar,
-            this.btnComprasConsultar,
-            this.btnComprasAlterar,
-            this.btnComprasExcluir});
-            this.btnCompras.Name = "btnCompras";
-            resources.ApplyResources(this.btnCompras, "btnCompras");
-            // 
-            // btnTransferencias
-            // 
-            this.btnTransferencias.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnTransferenciasCadastrar,
-            this.btnTransferenciasConsultar,
-            this.btnTransferenciasAlterar,
-            this.btnTransferenciasExcluir});
-            this.btnTransferencias.Name = "btnTransferencias";
-            resources.ApplyResources(this.btnTransferencias, "btnTransferencias");
-            // 
-            // btnRelatorios
-            // 
-            this.btnRelatorios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnRelatoriosProdutos,
-            this.btnRelatoriosClientes,
-            this.btnRelatoriosFuncionarios,
-            this.rbtnRelatoriosTransferencias,
-            this.btnRelatoriosVendas,
-            this.btnRelatoriosGraficoVendas});
-            this.btnRelatorios.Name = "btnRelatorios";
-            resources.ApplyResources(this.btnRelatorios, "btnRelatorios");
-            // 
             // btnProdutosCadastrar
             // 
             this.btnProdutosCadastrar.Name = "btnProdutosCadastrar";
             resources.ApplyResources(this.btnProdutosCadastrar, "btnProdutosCadastrar");
+            this.btnProdutosCadastrar.Click += new System.EventHandler(this.btnProdutosCadastrar_Click);
             // 
             // btnProdutosConsultar
             // 
             this.btnProdutosConsultar.Name = "btnProdutosConsultar";
             resources.ApplyResources(this.btnProdutosConsultar, "btnProdutosConsultar");
+            this.btnProdutosConsultar.Click += new System.EventHandler(this.btnProdutosConsultar_Click);
             // 
             // btnProdutosAlterar
             // 
@@ -205,6 +131,18 @@
             // 
             this.btnProdutosExcluir.Name = "btnProdutosExcluir";
             resources.ApplyResources(this.btnProdutosExcluir, "btnProdutosExcluir");
+            this.btnProdutosExcluir.Click += new System.EventHandler(this.btnProdutosExcluir_Click);
+            // 
+            // btnFornecedores
+            // 
+            this.btnFornecedores.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnFornecedoresCadastrar,
+            this.btnFornecedoresConsultar,
+            this.btnFornecedoresAlterar,
+            this.btnFornecedoresExcluir,
+            this.btnFornecedoresAtivar});
+            this.btnFornecedores.Name = "btnFornecedores";
+            resources.ApplyResources(this.btnFornecedores, "btnFornecedores");
             // 
             // btnFornecedoresCadastrar
             // 
@@ -231,6 +169,17 @@
             this.btnFornecedoresAtivar.Name = "btnFornecedoresAtivar";
             resources.ApplyResources(this.btnFornecedoresAtivar, "btnFornecedoresAtivar");
             // 
+            // btnClientes
+            // 
+            this.btnClientes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnClientesCadastrar,
+            this.btnClientesConsultar,
+            this.btnClientesAlterar,
+            this.btnClientesExcluir,
+            this.btnClientesAtivar});
+            this.btnClientes.Name = "btnClientes";
+            resources.ApplyResources(this.btnClientes, "btnClientes");
+            // 
             // btnClientesCadastrar
             // 
             this.btnClientesCadastrar.Name = "btnClientesCadastrar";
@@ -255,6 +204,17 @@
             // 
             this.btnClientesAtivar.Name = "btnClientesAtivar";
             resources.ApplyResources(this.btnClientesAtivar, "btnClientesAtivar");
+            // 
+            // btnFuncionarios
+            // 
+            this.btnFuncionarios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnFuncionariosCadastrar,
+            this.btnFuncionariosConsultar,
+            this.btnFuncionariosAlterar,
+            this.btnFuncionariosExcluir,
+            this.btnFuncionariosAtivar});
+            this.btnFuncionarios.Name = "btnFuncionarios";
+            resources.ApplyResources(this.btnFuncionarios, "btnFuncionarios");
             // 
             // btnFuncionariosCadastrar
             // 
@@ -281,6 +241,17 @@
             this.btnFuncionariosAtivar.Name = "btnFuncionariosAtivar";
             resources.ApplyResources(this.btnFuncionariosAtivar, "btnFuncionariosAtivar");
             // 
+            // btnSetores
+            // 
+            this.btnSetores.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnSetoresCadastrar,
+            this.btnSetoresConsultar,
+            this.btnSetoresAlterar,
+            this.btnSetoresExcluir,
+            this.btnSetoresAtivar});
+            this.btnSetores.Name = "btnSetores";
+            resources.ApplyResources(this.btnSetores, "btnSetores");
+            // 
             // btnSetoresCadastrar
             // 
             this.btnSetoresCadastrar.Name = "btnSetoresCadastrar";
@@ -306,6 +277,16 @@
             this.btnSetoresAtivar.Name = "btnSetoresAtivar";
             resources.ApplyResources(this.btnSetoresAtivar, "btnSetoresAtivar");
             // 
+            // btnCompras
+            // 
+            this.btnCompras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnComprasCadastrar,
+            this.btnComprasConsultar,
+            this.btnComprasAlterar,
+            this.btnComprasExcluir});
+            this.btnCompras.Name = "btnCompras";
+            resources.ApplyResources(this.btnCompras, "btnCompras");
+            // 
             // btnComprasCadastrar
             // 
             this.btnComprasCadastrar.Name = "btnComprasCadastrar";
@@ -325,6 +306,16 @@
             // 
             this.btnComprasExcluir.Name = "btnComprasExcluir";
             resources.ApplyResources(this.btnComprasExcluir, "btnComprasExcluir");
+            // 
+            // btnTransferencias
+            // 
+            this.btnTransferencias.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnTransferenciasCadastrar,
+            this.btnTransferenciasConsultar,
+            this.btnTransferenciasAlterar,
+            this.btnTransferenciasExcluir});
+            this.btnTransferencias.Name = "btnTransferencias";
+            resources.ApplyResources(this.btnTransferencias, "btnTransferencias");
             // 
             // btnTransferenciasCadastrar
             // 
@@ -346,6 +337,18 @@
             this.btnTransferenciasExcluir.Name = "btnTransferenciasExcluir";
             resources.ApplyResources(this.btnTransferenciasExcluir, "btnTransferenciasExcluir");
             // 
+            // btnRelatorios
+            // 
+            this.btnRelatorios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnRelatoriosProdutos,
+            this.btnRelatoriosClientes,
+            this.btnRelatoriosFuncionarios,
+            this.rbtnRelatoriosTransferencias,
+            this.btnRelatoriosVendas,
+            this.btnRelatoriosGraficoVendas});
+            this.btnRelatorios.Name = "btnRelatorios";
+            resources.ApplyResources(this.btnRelatorios, "btnRelatorios");
+            // 
             // btnRelatoriosProdutos
             // 
             this.btnRelatoriosProdutos.Name = "btnRelatoriosProdutos";
@@ -362,15 +365,15 @@
             this.btnRelatoriosFuncionarios.Name = "btnRelatoriosFuncionarios";
             resources.ApplyResources(this.btnRelatoriosFuncionarios, "btnRelatoriosFuncionarios");
             // 
-            // btnRelatoriosVendas
-            // 
-            this.btnRelatoriosVendas.Name = "btnRelatoriosVendas";
-            resources.ApplyResources(this.btnRelatoriosVendas, "btnRelatoriosVendas");
-            // 
             // rbtnRelatoriosTransferencias
             // 
             this.rbtnRelatoriosTransferencias.Name = "rbtnRelatoriosTransferencias";
             resources.ApplyResources(this.rbtnRelatoriosTransferencias, "rbtnRelatoriosTransferencias");
+            // 
+            // btnRelatoriosVendas
+            // 
+            this.btnRelatoriosVendas.Name = "btnRelatoriosVendas";
+            resources.ApplyResources(this.btnRelatoriosVendas, "btnRelatoriosVendas");
             // 
             // btnRelatoriosGraficoVendas
             // 
