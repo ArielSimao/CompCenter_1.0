@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Comp_Center_1._0
 {
-    public partial class home : Form
+    public partial class home : System.Windows.Forms.Form
     {
         public home()
         {

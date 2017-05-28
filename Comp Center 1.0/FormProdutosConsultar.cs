@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace CompCenter_1._0
 {
-    public partial class FormProdutosConsultar : Form
+    public partial class FormProdutosConsultar : System.Windows.Forms.Form
     {
         public FormProdutosConsultar()
         {
@@ -53,6 +53,11 @@ namespace CompCenter_1._0
         }
 
         private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

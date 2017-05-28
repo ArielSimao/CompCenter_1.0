@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace CompCenter_1._0
 {
-    public partial class FormProdutosCadastrar : Form
+    public partial class FormProdutosCadastrar : System.Windows.Forms.Form
     {
         public FormProdutosCadastrar()
         {
@@ -35,6 +35,13 @@ namespace CompCenter_1._0
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+         MessageBox.Show("Produto Cadastrado Com Sucesso!", "Atencao", MessageBoxButtons.OK, MessageBoxIcon.None);
+            
         }
     }
 }
